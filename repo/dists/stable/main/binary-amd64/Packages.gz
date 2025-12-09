@@ -1,0 +1,1 @@
+dpkg-scanpackages ./pool /dev/null | gzip -9c > dists/stable/main/binary-amd64/Packages.gz
